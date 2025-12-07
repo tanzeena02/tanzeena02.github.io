@@ -68,7 +68,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
 
 **Tech:** Python, pandas, scikit-learn, Matplotlib, Jupyter
 
-👉 [View Project Repo](https://github.com/tanzeena02/Predictive-Analysis-model-to-solve-DataCo-Global-s-delivery-delay-issues) *(update link if different)*
+👉 [View Project Repo](https://github.com/tanzeena02/Project1)
 
 ---
 
@@ -85,7 +85,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
 
 **Tech:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter
 
-👉 [View Project Repo](#) *(add your repo link here once created)*
+👉 [View Project Repo](#) *(https://github.com/tanzeena02/Project2)
 
 ---
 
