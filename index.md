@@ -149,7 +149,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
       ✔ Business recommendations on shipment modes, inventory & ERP alerts to reduce late deliveries
     </p>
     <p>
-      🔗 <a href="https://github.com/tanzeena02/Predictive-Analysis-model-to-solve-DataCo-Global-s-delivery-delay-issues" target="_blank">
+      🔗 <a href="https://tanzeena02.github.io/Project1/" target="_blank">
       View project on GitHub</a>
     </p>
   </div>
@@ -168,7 +168,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
       ✔ Identified overfitting and selected Logistic Regression as a stable baseline model
     </p>
     <p>
-      🔗 <a href="#" target="_blank">GitHub repo (add link when ready)</a>
+      🔗 <a href="https://tanzeena02.github.io/Project2/" target="_blank">GitHub repo </a>
     </p>
   </div>
 
