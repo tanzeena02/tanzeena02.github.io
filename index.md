@@ -1,17 +1,92 @@
 ---
+layout: default
 title: "Afroza Tanzeena | Data & Business Analytics Portfolio"
 ---
 
-# 👋 Hi, I'm **Afroza Tanzeena**
+<style>
+/* Simple styling on top of Cayman */
+.hero {
+  text-align: center;
+  margin: 2rem 0 3rem;
+}
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.3rem;
+}
+.hero p.tagline {
+  font-size: 1.05rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+.hero-buttons a {
+  display: inline-block;
+  margin: 0.25rem 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid #0366d6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.hero-buttons a.primary {
+  background: #0366d6;
+  color: #fff;
+}
+.hero-buttons a.secondary {
+  color: #0366d6;
+  background: #fff;
+}
+.section-title {
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.project-card {
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.project-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+.project-card p {
+  margin: 0.3rem 0;
+  font-size: 0.92rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  background: #e1ecff;
+  color: #03408f;
+}
+.small-muted {
+  font-size: 0.85rem;
+  color: #666;
+}
+</style>
 
-**Data & Business Analytics • Supply Chain & Retail • Product & Fraud Insights**
-
-I turn messy business data into clear, actionable stories.  
-My background spans **global product development, supply chain analytics, and retail operations**, and I love using Python, SQL, and BI tools to solve real business problems.
-
-[💻 GitHub](https://github.com/tanzeena02) · 
-[🔗 LinkedIn](https://www.linkedin.com/in/afroza-tanzeena/) · 
-[📧 Email](mailto:tanzeena.n@gmail.com)
+<div class="hero">
+  <h1>👋 Hi, I'm <strong>Afroza Tanzeena</strong></h1>
+  <p class="tagline">
+    Data & Business Analytics · Supply Chain & Retail · Machine Learning Projects
+  </p>
+  <div class="hero-buttons">
+    <a class="primary" href="https://github.com/tanzeena02" target="_blank">💻 View my GitHub</a>
+    <a class="secondary" href="https://www.linkedin.com/in/afroza-tanzeena/" target="_blank">🔗 LinkedIn</a>
+    <a class="secondary" href="mailto:tanzeena.n@gmail.com">📧 Contact Me</a>
+  </div>
+</div>
 
 ---
 
@@ -19,9 +94,9 @@ My background spans **global product development, supply chain analytics, and re
 
 I’m a **data-focused business professional** with experience across:
 
-- **Global product & supply chain operations** (Avery Dennison)
-- **Retail & customer experience** (Sephora Canada)
-- **Business insights & analytics** (Post-grad in Business Insights & Analytics)
+- **Global product & supply chain operations** (Avery Dennison)  
+- **Retail & customer experience** (Sephora Canada)  
+- **Business insights & analytics** (Post-grad in Business Insights & Analytics)  
 
 I enjoy projects where I can **clean and explore data, build models, and translate the results into decisions** that improve operations, reduce risk, or grow revenue.
 
@@ -29,79 +104,89 @@ I enjoy projects where I can **clean and explore data, build models, and transla
 
 ## 🛠 Skills
 
-**Programming & Tools**  
+**Programming & Tools**
+
 - Python (pandas, NumPy, scikit-learn, Matplotlib)  
 - SQL · Jupyter Notebooks  
 - Power BI · Tableau  
 - Excel (advanced), Google Sheets  
 - Oracle ERP · SAP · Salesforce  
-- Git & GitHub
+- Git & GitHub  
 
-**Data & Analytics**  
+**Data & Analytics**
+
 - Data cleaning & preprocessing  
 - Exploratory Data Analysis (EDA)  
 - Feature engineering  
 - Classification & regression models  
 - Model evaluation & validation  
-- Data visualization & storytelling
+- Data visualization & storytelling  
 
-**Domain Strengths**  
+**Domain Strengths**
+
 - Supply chain & logistics  
 - Retail & customer behavior  
 - Product & pricing analytics  
-- Fraud detection & risk insights
+- Fraud detection & risk insights  
 
 ---
 
-## 📂 Projects
+## 📂 Featured Projects
 
-### 📦 Project 1 — Predictive Analytics for Delivery Delay Reduction (Supply Chain)
+<div class="project-grid">
 
-**Goal:** Reduce late deliveries for an e-commerce company (DataCo Global) by predicting whether an order will be **on-time or late**.
+  <div class="project-card">
+    <span class="badge">Python</span>
+    <span class="badge">ML</span>
+    <span class="badge">Supply Chain</span>
+    <h3>📦 Predictive Analytics for Delivery Delays</h3>
+    <p>
+      Built a machine learning model to predict whether an order will be delivered <strong>on time or late</strong>
+      for DataCo Global.
+    </p>
+    <p class="small-muted">
+      ✔ Data cleaning & normalization · ✔ EDA & correlation heatmaps · ✔ Logistic Regression & Random Forest  
+      ✔ Business recommendations on shipment modes, inventory & ERP alerts to reduce late deliveries
+    </p>
+    <p>
+      🔗 <a href="https://github.com/tanzeena02/Predictive-Analysis-model-to-solve-DataCo-Global-s-delivery-delay-issues" target="_blank">
+      View project on GitHub</a>
+    </p>
+  </div>
 
-**What I did:**
-- Cleaned and prepared a large supply chain dataset (180k+ rows, 50+ features).
-- Performed EDA, correlation analysis, and visualized top product categories with late deliveries.
-- Built classification models using **Logistic Regression** and **Random Forest** in Python.
-- Evaluated model performance and identified signs of overfitting, suggesting further regularization and model tuning.
-- Translated results into **business recommendations** (optimize shipment modes, inventory strategy, and ERP alerts) to improve on-time delivery and customer satisfaction.
+  <div class="project-card">
+    <span class="badge">Python</span>
+    <span class="badge">ML</span>
+    <span class="badge">Fraud Detection</span>
+    <h3>💳 Fraud Detection in Financial Transactions</h3>
+    <p>
+      Analysed 600K+ financial transactions to detect fraudulent activity and compared multiple classification models.
+    </p>
+    <p class="small-muted">
+      ✔ Preprocessing & feature selection · ✔ Class imbalance exploration · ✔ KNN, Logistic Regression, CART,
+      Random Forest, Naive Bayes, XGBoost  
+      ✔ Identified overfitting and selected Logistic Regression as a stable baseline model
+    </p>
+    <p>
+      🔗 <a href="#" target="_blank">GitHub repo (add link when ready)</a>
+    </p>
+  </div>
 
-**Tech:** Python, pandas, scikit-learn, Matplotlib, Jupyter
-
-👉 [View Project Repo](https://github.com/tanzeena02/Project1)
-
----
-
-### 💳 Project 2 — Fraud Detection in Financial Transactions
-
-**Goal:** Detect fraudulent transactions from a large historical dataset and compare multiple machine learning models for fraud classification.
-
-**What I did:**
-- Explored a dataset of **600k+ financial transactions** with features like transaction type, balances, and fraud flags.
-- Performed preprocessing (type mapping, dimension reduction via correlation matrix) and examined **class imbalance** in fraud labels.
-- Trained and evaluated multiple models: **KNN, Logistic Regression, CART (Decision Trees), Random Forest, Naive Bayes, XGBoost**.
-- Used metrics such as **accuracy, confusion matrix, ROC curve** to compare models.
-- Discovered that several models showed unrealistically high accuracy due to overfitting and imbalance; selected **Logistic Regression** as the most stable baseline model and outlined next steps (resampling, threshold tuning).
-
-**Tech:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter
-
-👉 [View Project Repo](#)(https://github.com/tanzeena02/Project2)
+  <!-- Add more project cards here later -->
+</div>
 
 ---
 
 ## 🚀 What I’m Working On Next
 
-- Building more **end-to-end analytics projects** (dashboards, SQL case studies, and ML models).  
-- Expanding my portfolio into **customer analytics, pricing, and marketing performance** use cases.  
-
-If you’d like to chat about **data analytics, supply chain, or product & retail operations**, feel free to reach out!
+- More **end-to-end analytics projects** including dashboards and SQL case studies  
+- Supply chain & retail analytics focused on demand forecasting, pricing and customer behavior  
+- Sharpening my skills in **Power BI, Tableau and ML model deployment**
 
 ---
 
 ## 📬 Contact
 
-- 📧 **Email:** [tanzeena.n@gmail.com](mailto:tanzeena.n@gmail.com)  
-- 🔗 **LinkedIn:** [Afroza Tanzeena](https://www.linkedin.com/in/afroza-tanzeena/)  
-- 💻 **GitHub:** [tanzeena02](https://github.com/tanzeena02)
-
-
+- 📧 <a href="mailto:tanzeena.n@gmail.com">tanzeena.n@gmail.com</a>  
+- 🔗 <a href="https://www.linkedin.com/in/afroza-tanzeena/" target="_blank">LinkedIn: Afroza Tanzeena</a>  
+- 💻 <a href="https://github.com/tanzeena02" target="_blank">GitHub: tanzeena02</a>
