@@ -85,7 +85,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
 
 **Tech:** Python, pandas, scikit-learn, XGBoost, Matplotlib, Jupyter
 
-👉 [View Project Repo](#) *(https://github.com/tanzeena02/Project2)
+👉 [View Project Repo](#)(https://github.com/tanzeena02/Project2)
 
 ---
 
