@@ -172,7 +172,32 @@ I enjoy projects where I can **clean and explore data, build models, and transla
     </p>
   </div>
 
-  <!-- Add more project cards here later -->
+<div class="project-card">
+    <span class="badge">Tableau</span>
+    <span class="badge">Data Visualization</span>
+    <span class="badge">Retail Analytics</span>
+
+    <h3>🧴 Sephora Skincare Price, Rating & Skin Type Analysis</h3>
+
+    <p>
+        Built an end-to-end Tableau dashboard analyzing <strong>1,000+ Sephora moisturizers</strong> to explore 
+        pricing trends, customer ratings, brand assortment patterns, and skin-type suitability across the 
+        skincare category.  
+        This project was created to strengthen my Tableau skills and aligns closely with my experience working at Sephora.
+    </p>
+
+    <p class="small-muted">
+        ✔ Data cleaning & preparation · 
+        ✔ Price vs. rating insight exploration · 
+        ✔ Brand performance comparison · 
+        ✔ Skin-type suitability visualization · 
+        ✔ Interactive multi-chart dashboard in Tableau Public
+    </p>
+
+    <p>
+        🔗 <a href="(https://lnkd.in/gqxAQMt7)" target="_blank">View Tableau Dashboard</a><br>
+        🔗 <a href="https://tanzeena02.github.io/Project3/" target="_blank">GitHub Repo</a>
+    </p>
 </div>
 
 ---
