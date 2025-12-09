@@ -194,7 +194,7 @@ I enjoy projects where I can **clean and explore data, build models, and transla
     </p>
 
     <p>
-        🔗 <a href="(https://lnkd.in/gqxAQMt7)" target="_blank">View Tableau Dashboard</a><br>
+        🔗 <a href="https://public.tableau.com/app/profile/afroza.tanzeena/viz/Sephoraskincareanalysisfinal/FinalDashboard" target="_blank">View Tableau Dashboard</a><br>
         🔗 <a href="https://tanzeena02.github.io/Project3/" target="_blank">GitHub Repo</a>
     </p>
 </div>
