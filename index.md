@@ -172,9 +172,9 @@ I enjoy projects where I can **clean and explore data, build models, and transla
     </p>
   </div>
 
-  </div>
   
-<div class="project-card">
+  
+ <div class="project-card">
     <span class="badge">Tableau</span>
     <span class="badge">Data Visualization</span>
     <span class="badge">Retail Analytics</span>
